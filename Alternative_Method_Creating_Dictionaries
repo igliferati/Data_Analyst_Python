@@ -1,0 +1,16 @@
+#Create an empty dictionary named content_ratings.
+
+content_ratings={}
+
+#Add the index:value pairs one by one using the dictionary_name[index] = value technique. This should be the final form of the dictionary: {'12+': 1155, '17+': 622, '4+': 4433, '9+': 987}.
+
+content_ratings['12+'] = 1155
+content_ratings['17+'] = 622
+content_ratings['4+']=4433
+content_ratings['9+']= 987
+print(content_ratings)
+
+#Retrieve the value at index 12+ from the content_ratings dictionary and assign it to a variable named over_12_n_apps.
+
+
+over_12_n_apps=content_ratings['12+']
